@@ -1,0 +1,539 @@
+* {
+    margin: 0;
+    padding: 5;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+    line-height: 1.7;
+    height: 100vh;
+    overflow: hidden;
+}
+
+a {
+    font-family: 'Lato', sans-serif;
+    font-size: xx-large;
+    color:#afc3bd;
+}
+
+.info {
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    scroll-behavior:smooth;
+    position: relative;
+}
+
+.name {
+    color:white;
+    text-decoration: none;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 20px;
+    font-weight: bold;
+    top : 2px;
+    left: 10px;
+    border: 2px solid white;
+    position: absolute;
+}
+
+.navigation{
+    width: 100%;
+    height: 40px;
+    top: 0px;
+    display: flex;
+    background-color: black;
+}
+
+.navigation ul {
+    top: 0;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    list-style: none;
+}
+
+.navigation ul li {
+    margin: 0 2.5rem;
+    padding: 5px 15px 10px 15px;
+}
+
+.navigation ul li a{
+    color:white;
+    text-decoration: none;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: bold;
+    font-size:17px;
+}
+
+section{
+    width: 100%;
+    height: 250vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content:center;
+
+}
+
+section#about {
+    align-items: flex-start;
+    width: 100 vw;
+    align-content: flex-start;
+    justify-content: flex-start;
+    background-color: white;
+    height: 100vh;
+}
+
+section#about .aboutContent{ 
+    display:flex;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: yellow;
+}
+
+section#about .aboutContent .text{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 30%; 
+    background-color: black;
+}
+
+section#about .aboutContent .image{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 70%; 
+    background-color: teal;
+}
+
+section#about .aboutContent .image img{
+    height: 100%;
+    width: 100%;
+}
+
+section#about .aboutContent .overlay{
+    position: absolute; 
+    width: 45%; 
+    height: 70%; 
+    top: 130px;
+    left: 130px;
+    z-index: 9;
+    background-color: #fffaf0;
+
+    display:flex;
+    align-items: center;
+	justify-content: center;
+    border-radius: 25px;
+  }
+
+  section#about .aboutContent .overlay .textArea{
+    color:Black;
+    text-decoration: none;
+    max-width: 80%;
+  }
+
+  section#about .aboutContent .overlay .textArea h2{
+    color:Black;
+    text-decoration: none;
+    font-family: 'Spectral SC', serif;
+    font-weight: bold;
+    font-size:50px;
+  }
+
+  section#about .aboutContent .overlay .textArea h1{
+    color:Black;
+    text-decoration: none;
+    font-family: 'Cormorant SC', serif;
+    font-weight: bold;
+    font-size:90px;
+  }
+
+  section#about .aboutContent .overlay .textArea p{
+    color:Black;
+    text-decoration: none;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: bold;
+    font-size:20px;
+  }
+
+
+section#projects {
+
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 250vh;
+}
+
+section#projects .titles{
+    height: 8%;
+    width: 100%;
+    display:flex;
+    align-items: center;
+	justify-content: center;
+}
+
+section#projects .titles .innerText h2{
+    color:Black;
+    text-decoration: none;
+    font-family: 'Staatliches', cursive;
+    font-weight: bold;
+    font-size: 70px;
+}
+
+section#projects .titles .innerText  p{
+    color:Black;
+    text-decoration: none;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+section#projects .project{
+    display:flex;
+    position:relative;
+    height: 92%;
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: stretch;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: yellow;
+}
+
+
+
+
+section#projects .project .platform{
+    display:flex;
+    height: 25%;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+    color: black;
+
+}
+
+section#projects .project .platform .image{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 40%; 
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    position:relative
+}
+
+section#projects .project .platform .image img{
+    height: 80%;
+    width: 90%; 
+    position: absolute;
+    top: 55px;
+    left: 60px;
+    border-radius: 25px;
+}
+
+section#projects .project .platform .text{
+    height: 100%;
+    width: 60%;
+    background-color: white;
+    color:Black;
+    display:flex;
+    align-items: center;
+	justify-content: center;
+
+}
+
+section#projects .project .platform .text .innerText{
+    height: 90%;
+    width: 90%;
+    color:Black;
+    background-color: #d4f4ec;
+    text-decoration: none;
+    display:flex;
+    align-items: center;
+	justify-content: center;
+    border-radius: 25px;
+}
+
+section#projects .project .platform .text .innerText .innerInnerText{
+    color:Black;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+section#projects .project .platform .text .innerText .innerInnerText a{
+    color:Black;
+    text-decoration: underline;
+    font-family: 'Staatliches', cursive;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+
+
+
+section#projects .project .imagePixel{
+    display:flex;
+    height: 25%;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+    color: black;
+
+}
+
+section#projects .project .imagePixel .image{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 40%; 
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    position:relative
+}
+
+section#projects .project .imagePixel .image .image1{
+    height: 80%;
+    width: 45%; 
+    position: absolute;
+    top: 55px;
+    left: 0px;
+    border-radius: 25px;
+}
+
+section#projects .project .imagePixel .image .image2{
+    height: 80%;
+    width: 45%; 
+    position: absolute;
+    top: 55px;
+    right: 35px;
+}
+
+section#projects .project .imagePixel .image .image1 img{
+    height: 100%;
+    width: 100%; 
+    border-radius: 25px;
+}
+
+section#projects .project .imagePixel .image .image2 img{
+    height: 100%;
+    width: 100%; 
+    border-radius: 25px;
+}
+
+
+section#projects .project .imagePixel .text{
+    height: 100%;
+    width: 60%;
+    background-color: white;
+    color:Black;
+    display:flex;
+    align-items: center;
+	justify-content: center;
+
+}
+
+section#projects .project .imagePixel .text .innerText{
+    height: 90%;
+    width: 90%;
+    color:Black;
+    background-color: #ffd8c5;
+    text-decoration: none;
+    display:flex;
+    align-items: center;
+	justify-content: center;
+    border-radius: 25px;
+}
+
+section#projects .project .imagePixel .text .innerText .innerInnerText{
+    color:Black;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+section#projects .project .imagePixel .text .innerText .innerInnerText a{
+    color:Black;
+    text-decoration: underline;
+    font-family: 'Staatliches', cursive;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+
+section#projects .project .fitnessApp{
+    display:flex;
+    height: 25%;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+    color: black;
+
+}
+
+section#projects .project .fitnessApp .image{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 40%; 
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    display: flex;
+    position: relative
+}
+
+section#projects .project .fitnessApp .image img{
+    height: 80%;
+    width: 90%; 
+    position: absolute;
+    top: 55px;
+    left: 60px;
+    border-radius: 25px;
+}
+
+
+section#projects .project .fitnessApp .text{
+    height: 100%;
+    width: 60%;
+    background-color: white;
+    color:Black;
+    display:flex;
+    align-items: center;
+	justify-content: center;
+
+}
+
+section#projects .project .fitnessApp .text .innerText{
+    height: 90%;
+    width: 90%;
+    color:Black;
+    background-color: #fea889;
+    text-decoration: none;
+    display:flex;
+    align-items: center;
+	justify-content: center;
+    border-radius: 25px;
+}
+
+section#projects .project .fitnessApp .text .innerText .innerInnerText{
+    color:Black;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+section#projects .project .fitnessApp .text .innerText .innerInnerText a{
+    color:Black;
+    text-decoration: underline;
+    font-family: 'Staatliches', cursive;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+
+
+
+
+section#projects .project .pathFinder{
+    display:flex;
+    height: 25%;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+    color: black;
+
+}
+
+section#projects .project .pathFinder .image{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 40%; 
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    position:relative
+}
+
+section#projects .project .pathFinder .image img{
+    height: 80%;
+    width: 90%; 
+    position: absolute;
+    top: 55px;
+    left: 20px;
+    border-radius: 25px;
+}
+
+section#projects .project .pathFinder .text{
+    height: 100%;
+    width: 60%;
+    background-color: white;
+    color:Black;
+    display:flex;
+    align-items: center;
+	justify-content: center;
+
+}
+
+section#projects .project .pathFinder .text .innerText{
+    height: 90%;
+    width: 90%;
+    color:Black;
+    background-color: #70d0c6;
+    text-decoration: none;
+    display:flex;
+    align-items: center;
+	justify-content: center;
+    border-radius: 25px;
+}
+
+section#projects .project .pathFinder .text .innerText .innerInnerText{
+    color:Black;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+section#projects .project .pathFinder .text .innerText .innerInnerText a{
+    color:Black;
+    text-decoration: underline;
+    font-family: 'Staatliches', cursive;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+
+section#experience {
+    background-color: black;
+    height: 100vh;
+    margin:0;
+    padding:0;
+    display:flex;
+    text-align: left;
+    color:#fff;
+    overflow: hidden;
+}
+
+section#contact {
+    height:150vh;
+    background-color: rgb(4, 60, 78);
+    color: rgb(14, 15, 15);
+    font-size: 35px;
+}
