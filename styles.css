@@ -29,7 +29,7 @@ a {
     color:white;
     text-decoration: none;
     font-family: 'JetBrains Mono', monospace;
-    font-size: 20px;
+    font-size: 1vw;
     font-weight: bold;
     top : 2px;
     left: 10px;
@@ -63,7 +63,7 @@ a {
     text-decoration: none;
     font-family: 'JetBrains Mono', monospace;
     font-weight: bold;
-    font-size:17px;
+    font-size:0.85vw;
 }
 
 section{
@@ -141,7 +141,7 @@ section#about .aboutContent .overlay{
     text-decoration: none;
     font-family: 'Spectral SC', serif;
     font-weight: bold;
-    font-size:50px;
+    font-size:2.5vw;
   }
 
   section#about .aboutContent .overlay .textArea h1{
@@ -149,7 +149,7 @@ section#about .aboutContent .overlay{
     text-decoration: none;
     font-family: 'Cormorant SC', serif;
     font-weight: bold;
-    font-size:90px;
+    font-size:4.5vw;
   }
 
   section#about .aboutContent .overlay .textArea p{
@@ -157,7 +157,7 @@ section#about .aboutContent .overlay{
     text-decoration: none;
     font-family: 'JetBrains Mono', monospace;
     font-weight: bold;
-    font-size:20px;
+    font-size:1.1vw;
   }
 
 
@@ -182,7 +182,7 @@ section#projects .titles .innerText h2{
     text-decoration: none;
     font-family: 'Staatliches', cursive;
     font-weight: bold;
-    font-size: 70px;
+    font-size: 3vw;
 }
 
 section#projects .titles .innerText  p{
@@ -190,7 +190,7 @@ section#projects .titles .innerText  p{
     text-decoration: none;
     font-family: 'JetBrains Mono', monospace;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1vw;
 }
 
 section#projects .project{
@@ -267,7 +267,7 @@ section#projects .project .platform .text .innerText .innerInnerText{
     color:Black;
     font-family: 'JetBrains Mono', monospace;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1vw;
 }
 
 section#projects .project .platform .text .innerText .innerInnerText a{
@@ -275,7 +275,7 @@ section#projects .project .platform .text .innerText .innerInnerText a{
     text-decoration: underline;
     font-family: 'Staatliches', cursive;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 2vw;
 }
 
 
@@ -361,7 +361,7 @@ section#projects .project .imagePixel .text .innerText .innerInnerText{
     color:Black;
     font-family: 'JetBrains Mono', monospace;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1vw;
 }
 
 section#projects .project .imagePixel .text .innerText .innerInnerText a{
@@ -369,7 +369,7 @@ section#projects .project .imagePixel .text .innerText .innerInnerText a{
     text-decoration: underline;
     font-family: 'Staatliches', cursive;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 2vw;
 }
 
 
@@ -434,7 +434,7 @@ section#projects .project .fitnessApp .text .innerText .innerInnerText{
     color:Black;
     font-family: 'JetBrains Mono', monospace;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1vw;
 }
 
 section#projects .project .fitnessApp .text .innerText .innerInnerText a{
@@ -442,7 +442,7 @@ section#projects .project .fitnessApp .text .innerText .innerInnerText a{
     text-decoration: underline;
     font-family: 'Staatliches', cursive;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 2vw;
 }
 
 
@@ -488,7 +488,7 @@ section#projects .project .pathFinder .text{
     color:Black;
     display:flex;
     align-items: center;
-	justify-content: center;
+    justify-content: center;
 
 }
 
@@ -508,7 +508,7 @@ section#projects .project .pathFinder .text .innerText .innerInnerText{
     color:Black;
     font-family: 'JetBrains Mono', monospace;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1vw;
 }
 
 section#projects .project .pathFinder .text .innerText .innerInnerText a{
@@ -516,7 +516,7 @@ section#projects .project .pathFinder .text .innerText .innerInnerText a{
     text-decoration: underline;
     font-family: 'Staatliches', cursive;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 2vw;
 }
 
 
@@ -537,3 +537,4 @@ section#contact {
     color: rgb(14, 15, 15);
     font-size: 35px;
 }
+
