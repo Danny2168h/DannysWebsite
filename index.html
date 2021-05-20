@@ -1,15 +1,143 @@
 <!DOCTYPE html>
-<html>
-<head>
-<title>Danny Hu</title>
-</head>
 
- <!-- <link rel = "stylesheet" href = "style.css"> -->
- 
-<body>
+<html> 
+    <meta charset = "UTF-8">
+    <head>
+        <title> Danny Hu </title>
+    </head>
+    <link rel = "stylesheet" href = "styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@700&family=JetBrains+Mono:wght@300&family=Julius+Sans+One&family=Manjari:wght@700&family=Spectral+SC:wght@500&family=Staatliches&display=swap" rel="stylesheet">
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
+    <body>
 
-</body>
+    <div class = "name"> &nbsp; Danny Hu &nbsp;</div>
+
+    <div class = "info">
+
+        <div class = "name"> &nbsp; Danny Hu &nbsp;</div>
+
+
+        <nav class ="navigation">
+            <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <section id="about">
+            <div class = "aboutContent"> 
+                <div class = "text"> </div>
+                <div class = "image"> <img src = "image.jpg" alt = ""/> </div> 
+                <div class = "overlay">  
+                    <div class = "textArea"> <h2>Danny Hu</h2> <h1> A Bit About Me: </h1>
+                        <p>Hi there! I'm a third Year Student at UBC studying computer science. Im interested in pc building, computer hardware, badminton and game development.</p> </div>  
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class = "titles">  <div class = innerText> <h2> Danny's Technical Projects</h2>
+                <p>Click on project titles for links to GitHub Repository</p> </div> </div>
+
+            <div class= "project">
+
+                <div class= "platform">
+                  <div class = "image"> <img src = "2Dplatformer.jpg" alt = ""/> </div> 
+                  <div class = "text">
+                      <div class = "innerText"> <div class = innerInnerText>
+                          <a href= "https://github.com/Danny2168h/2DPlatformerShooter">2d Platformer (Java)</a>
+                        <ul><li>Used Java thread class to implement game-loop that updates and renders game with CPU</li>
+                            &nbsp;
+                            <li>Implemented character movement and collision handlers with Java libraries</li>
+                            &nbsp;
+                            <li>Debugged issues related to UI and game logic/mechanics and optimized runtimes to improve framerate</li>
+                        </ul>
+                        </div>
+                    </div>       
+              </div>
+            </div>
+
+
+
+            <div class= "imagePixel">
+                <div class = "text">
+                    <div class = "innerText"> <div class = innerInnerText>
+                        <a href= "https://github.com/Danny2168h/Image-Pixelation"> Image Pixelation (C++)</a>
+                        &nbsp;
+                        <ul><li>Implemented an algorithm that recursively divides and stores an image as a four-arity tree that minimizes the variance across all four children</li>
+                            &nbsp;
+                            <li>User-implemented tolerances determine the degree of pixelization which is achieved by replacing a tree nodes region with the 
+                                average colour of all pixels</li>
+                                &nbsp;
+                                <li>  therefore the less detail in an area of the image the fewer divisions and hence a greater loss
+                                 of information (pixelization)</li>
+                        </ul>
+                      </div>
+                  </div>       
+            </div>
+
+            <div class = "image"> <div class = "image1"> <img src = "puppy.png" alt = ""/> </div>   <div class = "image2"> <img src = "output.png" alt = ""/> </div> </div> 
+          
+          </div>
+
+
+
+                <div class= "fitnessApp">
+                    <div class = "image"> <img src = "fitnessApp.jpg" alt = ""/> </div> 
+                    <div class = "text">
+                        <div class = "innerText"> <div class = innerInnerText>
+                            <a href= "https://github.com/Danny2168h/FitnessApp"> Fitness App (Java)</a>
+                            <ul><li>Created Fitness app that calculates calories based on user inputs for foods and exercises</li>
+                                &nbsp;
+                                <li>RJava JPanel and JFrame utilized to design user interface</li>
+                                &nbsp;
+                                <li>JSON files used to encode users data for storage and retrieval</li>
+                                &nbsp;
+                                <li>Programmed an algorithm that gives users custom suggestions based on their calories consumed and expended during the day</li>
+                            </ul>
+                          </div>
+                      </div>       
+                </div>
+              </div>
+
+
+
+
+              <div class= "pathFinder">
+            
+                <div class = "text">
+                    <div class = "innerText"> <div class = innerInnerText>
+                        <a href= "https://github.com/Danny2168h/Image-Encoder-and-Path-Finder"> Image Encoder and Path Finder (C++)</a>
+                        <ul><li>Systematically modified specific pixels representing a path in a given image by changing the underlying RGB bits to encode the maze</li>
+                            &nbsp;
+                            <li>Using queues, took advantage of the graph-like structure of the image and utilized a breadth-first algorithm</li>
+                            &nbsp;
+                            <li>Used to determine the longest path in the embedded maze, with each pixel representing a node with adjacent edges to neighbouring pixels</li>
+                        </ul>
+                      </div>
+                  </div>       
+            </div>
+
+            <div class = "image"> <img src = "coding.jpg" alt = ""/> </div> 
+          </div>
+                   
+    
+
+        </section>
+
+        <section id="experience">
+        
+        </section>
+
+
+        <section id="contact">
+           
+        </section>
+    </div>
+    </body>
+
+
 </html>
