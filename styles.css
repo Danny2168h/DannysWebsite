@@ -241,6 +241,8 @@ section#projects .project .platform .image img{
 }
 
 section#projects .project .platform .text{
+
+    
     height: 100%;
     width: 60%;
     background-color: white;
@@ -255,7 +257,7 @@ section#projects .project .platform .text .innerText{
     height: 90%;
     width: 90%;
     color:Black;
-    background-color: #d4f4ec;
+    background-color: #E5FCC2;
     text-decoration: none;
     display:flex;
     align-items: center;
@@ -349,7 +351,7 @@ section#projects .project .imagePixel .text .innerText{
     height: 90%;
     width: 90%;
     color:Black;
-    background-color: #ffd8c5;
+    background-color: #9DE0AD;
     text-decoration: none;
     display:flex;
     align-items: center;
@@ -422,7 +424,7 @@ section#projects .project .fitnessApp .text .innerText{
     height: 90%;
     width: 90%;
     color:Black;
-    background-color: #fea889;
+    background-color:  #45ADA8 ;
     text-decoration: none;
     display:flex;
     align-items: center;
@@ -488,7 +490,7 @@ section#projects .project .pathFinder .text{
     color:Black;
     display:flex;
     align-items: center;
-    justify-content: center;
+	justify-content: center;
 
 }
 
@@ -496,7 +498,7 @@ section#projects .project .pathFinder .text .innerText{
     height: 90%;
     width: 90%;
     color:Black;
-    background-color: #70d0c6;
+    background-color:   #547980 ;
     text-decoration: none;
     display:flex;
     align-items: center;
@@ -521,20 +523,199 @@ section#projects .project .pathFinder .text .innerText .innerInnerText a{
 
 
 section#experience {
-    background-color: black;
-    height: 100vh;
-    margin:0;
-    padding:0;
-    display:flex;
-    text-align: left;
-    color:#fff;
-    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 110vh;
 }
+
+section#experience .experienceContent{ 
+    display:flex;
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+    align-content: stretch;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: black;
+}
+
+section#experience .experienceContent .right{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 60%; 
+    background-color: #d4d4d1;
+    display:flex;
+    align-items: center;
+	justify-content: center;
+}
+
+section#experience .experienceContent .right .rightText h1{
+    color:Black;
+    font-family: 'Tinos', serif;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 2.5vw;
+}
+
+section#experience .experienceContent .right .rightText{
+     
+    background-color: d4d4d1;
+    align-content: stretch;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+
+
+section#experience .experienceContent .right .rightText .exp h2{
+     
+    color:Black;
+    font-family: 'Tinos', serif;
+    font-size: 1.5vw;
+}
+
+section#experience .experienceContent .right .rightText .exp p{
+     
+    color:Black;
+    font-family: 'Tinos', serif;
+    font-size: 1vw;
+    font-style: italic;
+}
+
+
+section#experience .experienceContent .left{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    width: 40%; 
+    background-color: white; 
+    align-content: stretch;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+section#experience .experienceContent .left .topLeft{
+    margin: 0px;
+    padding: 0px;
+    height: 30%;
+    width: 100%; 
+    background-color: white;
+    display:flex;
+    align-items: center;
+	justify-content: center;
+}
+
+section#experience .experienceContent .left .topLeft .topLeftText{
+    width: 80%;
+}
+
+
+section#experience .experienceContent .left .topLeft .topLeftText h1{
+    color:Black;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    font-size: 4vw;
+}
+
+section#experience .experienceContent .left .topLeft .topLeftText p{
+    color:Black;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: bold;
+    font-size: 1vw;
+}
+
+section#experience .experienceContent .left .topLeft .topLeftText a{
+    color:Black;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: bold;
+    font-size: 1vw;
+}
+
+section#experience .experienceContent .left .bottomLeft{
+    margin: 0px;
+    padding: 0px;
+    height: 70%;
+    width: 100%; 
+    background-color: white;
+    display:flex;
+    align-items: center;
+	justify-content: center;
+}
+
+
+section#experience .experienceContent .left .bottomLeft .bottomLeftImage{
+    height: 80%;
+    width: 80%; 
+}
+
+section#experience .experienceContent .left .bottomLeft .bottomLeftImage img{
+    height: 100%;
+    width: 100%; 
+    border-radius: 25px;
+}
+
 
 section#contact {
-    height:150vh;
-    background-color: rgb(4, 60, 78);
-    color: rgb(14, 15, 15);
-    font-size: 35px;
+    height:30vh;
+    background-color: #191919;
+    display:flex;
+    align-items: center;
+	justify-content: center;
 }
 
+
+section#contact .contactInfo{
+    color:#ead89d;
+    height: 50%;
+    width: 50%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    display:flex;
+}
+
+section#contact .contactInfo .email{
+    height: 100%;
+    width: 50%;
+    color: #ead89d;
+}
+
+section#contact .contactInfo .resources{
+    height: 100%;
+    width: 50%;
+    color: #ead89d;
+}
+
+
+section#contact .contactInfo .email h1{
+    color:#ead89d;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 0.85vw;
+    font-weight: bold;
+}
+
+section#contact .contactInfo .resources h1{
+    color:#ead89d;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 0.85vw;
+    font-weight: bold;
+}
+
+section#contact .contactInfo .resources a{
+    color:#ead89d;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 0.85vw;
+    font-weight: bold;
+    
+}
+
+section#contact .contactInfo .email a{
+    color:#ead89d;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 0.85vw;
+    font-weight: bold;
+    
+}
